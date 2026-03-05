@@ -360,6 +360,11 @@ poetry.toml
 # ruff
 .ruff_cache/
 
+# vscode
+.vscode/
+.history/
+*.log
+
 # LSP config files
 pyrightconfig.json
 
