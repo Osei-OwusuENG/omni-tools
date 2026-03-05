@@ -1,2 +1,52 @@
-# omni-tools
-A cross-platform toolkit for workflow automation. Includes high-performance C utilities, JS web scrapers, and Python automation scripts.
+🛠️ Omni-Tools | Dev Utilities
+A curated collection of automation scripts and high-performance utilities built in Python, C, and JavaScript. This repository serves as my "Swiss Army Knife" for streamlining development workflows and automating repetitive tasks.
+
+
+📂 Project Structure
+Folder	            Language	    Description
+transcription/	    Python	        AI-powered speech-to-text using OpenAI Whisper/APIs.
+kaggle-ops/	        Python	        Automated dataset searching and downloading via Kaggle API.
+sys-utils/	        C	            High-performance system monitoring and memory utilities.
+web-automations/	JS (Node)	    Custom scrapers and browser-based workflow automations.
+
+
+🚀 Getting Started
+Prerequisites
+Python 3.8+
+Node.js 16+
+GCC (for compiling C utilities)
+
+Installation
+Clone the repository:
+bash
+git clone https://github.com/Osei-OwusuENG/omni-tools
+Use code with caution.
+
+For Python tools, install dependencies:
+bash
+pip install -r requirements.txt
+Use code with caution.
+
+For JS tools, install packages:
+bash
+npm install
+Use code with caution.
+
+🛠️ Individual Tools
+1. Kaggle Downloader (Python)
+Purpose: Search and fetch datasets directly to your local environment.
+Usage: python kfetch.py --search "titanic"
+
+2. Performance Monitor (C)
+Purpose: Real-time system resource tracking with minimal overhead.
+Compile: gcc monitor.c -o monitor
+
+
+📈 Future Roadmap
+Add Docker support for consistent environments.
+Integrate a GUI for the transcription tool.
+Add more low-level C utilities for file management.
+
+
+📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
