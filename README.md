@@ -13,7 +13,7 @@ A curated collection of automation scripts and high-performance utilities built 
 | `thor/kaggle-ops/` | **Python** | Automated dataset searching and downloading via Kaggle API. |
 | `tools-c/sys-utils/` | **C** | High-performance system monitoring and memory utilities. |
 | `ruud-js/web-automations/` | **JS (Node)** | Custom scrapers and browser-based workflow automations. |
-| `notebooks/` | *Python/C/JS* | Contains python, C and JS experiments. |
+| `notebooks/` | **Python/C/JS** | Contains python, C and JS experiments. |
 
 ---
 
@@ -32,12 +32,12 @@ A curated collection of automation scripts and high-performance utilities built 
 2. For Python tools, install dependencies:
 bash
 pip install -r requirements.txt
-Use code with caution.
+
 
 3. For JS tools, install packages:
 bash
 npm install
-Use code with caution.
+
 
 🛠️ Individual Tools
 1. Kaggle Downloader (Python)
@@ -47,11 +47,14 @@ Usage: python kfetch.py --search "titanic"
 Purpose: Real-time system resource tracking with minimal overhead.
 Compile: gcc monitor.c -o monitor
 
-📈 Future Roadmap
-Add Docker support for consistent environments.
-Integrate a GUI for the transcription tool.
-Add more low-level C utilities for file management.
+---
 
+📈 Future Roadmap
+1. Add Docker support for consistent environments.
+2. Integrate a GUI for the transcription tool.
+3. Add more low-level C utilities for file management.
+
+---
 
 📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+-This project is licensed under the MIT License - see the LICENSE file for details.
