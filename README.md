@@ -2,20 +2,27 @@
 
 A curated collection of automation scripts and high-performance utilities built in **Python, C, and JavaScript**. This repository serves as my "Swiss Army Knife" for streamlining development workflows and automating repetitive tasks.
 
+---
 
-📂 Project Structure
-Folder	            Language	    Description
-transcription/	    Python	        AI-powered speech-to-text using OpenAI Whisper/APIs.
-kaggle-ops/	        Python	        Automated dataset searching and downloading via Kaggle API.
-sys-utils/	        C	            High-performance system monitoring and memory utilities.
-web-automations/	JS (Node)	    Custom scrapers and browser-based workflow automations.
+## 📂 Project Structure
 
 
-🚀 Getting Started
-Prerequisites
-Python 3.8+
-Node.js 16+
-GCC (for compiling C utilities)
+| Folder | Language | Description |
+| :--- | :--- | :--- |
+| `thor/transcription/` | **Python** | AI-powered speech-to-text using OpenAI Whisper/APIs. |
+| `thor/kaggle-ops/` | **Python** | Automated dataset searching and downloading via Kaggle API. |
+| `tools-c/sys-utils/` | **C** | High-performance system monitoring and memory utilities. |
+| `ruud-js/web-automations/` | **JS (Node)** | Custom scrapers and browser-based workflow automations. |
+| `notebooks/` | *Python/C/JS* | Contains python, C and JS experiments. |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- **Python 3.+**
+- **Node.js 16+**
+- **GCC** (for compiling C utilities)
 
 ### Installation
 1. Clone the repository:
