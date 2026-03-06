@@ -49,12 +49,12 @@ Compile: gcc monitor.c -o monitor
 
 ---
 
-📈 Future Roadmap
+### 📈 Future Roadmap
 1. Add Docker support for consistent environments.
 2. Integrate a GUI for the transcription tool.
 3. Add more low-level C utilities for file management.
 
 ---
 
-📜 License
+### 📜 License
 -This project is licensed under the MIT License - see the LICENSE file for details.
