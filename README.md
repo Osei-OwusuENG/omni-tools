@@ -54,10 +54,3 @@ Add more low-level C utilities for file management.
 
 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-### Why this works:
-*   The `#` symbols create the **large headings**.
-*   The `|` and `---` lines create the **clean table** for your folders.
-*   The triple backticks (```) create the **dark code blocks** for your commands.
-*   The `- [ ]` creates those **pro-looking checkboxes**.
-
-**Update it and refresh the page**—it will instantly transform into the organized, professional look we discussed! Want me to double-check the code for your **AI-Lab** README next?
