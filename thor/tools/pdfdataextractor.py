@@ -18,7 +18,11 @@ class extractor():
                 for page in pdf.pages:
                     table = page.extract_tables()
                     if table:
-                        self.extracted.append(table)
+                        self.extracted.append({
+                            'source': file,
+                            'page': page.page_number,
+                            'table': table
+                            })
 
         return self.extracted
     
@@ -32,7 +36,11 @@ class extractor():
                 for page in pdf.pages:
                     table = page.extract_text()
                     if table:
-                        self.extracted.append(table)
+                        self.extracted.append({
+                            'source': file,
+                            'page': page.page_number,
+                            'table': table
+                            })
 
         return self.extracted
 
