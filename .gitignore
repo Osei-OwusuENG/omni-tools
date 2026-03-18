@@ -5,6 +5,10 @@
 # Prerequisites
 *.d
 
+
+# my folder/files to ignore
+data/
+
 # Object files
 *.o
 *.ko
